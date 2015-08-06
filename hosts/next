@@ -1,0 +1,9 @@
+[all:vars]
+project=chaining
+environment_tier=next
+
+[common:children]
+application
+
+[application]
+application.public-mobile-next.teluswebteam.com
